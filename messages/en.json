@@ -1,0 +1,26 @@
+{
+  "Navbar": {
+    "about": "About me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "themeToggle": "Toggle theme",
+    "languageToggle": "Change language"
+  },
+  "Hero": {
+    "greeting": "Hi, I'm",
+    "description": "Web developer focused on <important>React</important>, <important>TypeScript</important> and building digital applications with clean, modern interfaces and a high focus on user experience.",
+    "viewProjects": "View projects",
+    "contact": "Contact me"
+  },
+  "Projects": {
+    "title": "My Projects",
+    "subtitle": "A selection of my recent work and featured projects."
+  },
+  "Contact": {
+    "title": "Let's get in touch",
+    "description": "If you want to collaborate on a project, have an interesting proposal, or just want to talk about web development, don't hesitate to write me through the following channels.",
+    "email": "Send me an Email",
+    "github": "View my GitHub",
+    "linkedin": "LinkedIn"
+  }
+}
