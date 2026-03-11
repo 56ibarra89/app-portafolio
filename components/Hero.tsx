@@ -4,7 +4,7 @@ export default function Hero() {
   const t = useTranslations("Hero");
 
   return (
-    <section id="about" className="max-w-5xl mx-auto pt-40 pb-24 px-4 flex flex-col items-start justify-center min-h-[80vh]">
+    <section id="about" className="max-w-7xl mx-auto pt-40 pb-24 px-4 flex flex-col items-start justify-center min-h-[80vh] w-full">
       <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6">
         {t("greeting")}{" "}
         <span className="bg-clip-text text-transparent bg-linear-to-r from-gray-900 to-gray-500 dark:from-white dark:to-neutral-500">

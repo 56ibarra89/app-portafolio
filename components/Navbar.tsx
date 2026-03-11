@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200/50 dark:border-neutral-800/50 bg-white/70 dark:bg-neutral-950/70 backdrop-blur-md transition-colors duration-300">
-      <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 lg:px-6 py-4 w-full">
         <h1 className="font-bold tracking-tighter text-lg cursor-pointer hover:opacity-80 transition-opacity">
           Desarrollador Web
           <span className="text-gray-400 dark:text-neutral-500">.</span>

@@ -45,7 +45,7 @@ export default async function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {/* Un gradiente sutil de fondo para dar textura minimalista */}
             <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-gray-200/50 via-gray-50 to-gray-50 dark:from-neutral-900 dark:via-neutral-950 dark:to-neutral-950"></div>
-            <div className="flex-1 w-full max-w-5xl mx-auto px-6 lg:px-8">
+            <div className="flex-1 w-full max-w-7xl mx-auto px-4 lg:px-6">
               {children}
             </div>
           </ThemeProvider>
