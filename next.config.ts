@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  output: undefined,
+  output: "export",
 };
 
 export default withNextIntl(nextConfig);
