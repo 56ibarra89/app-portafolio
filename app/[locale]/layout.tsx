@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "../../components/theme-provider";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import "@/app/globals.css";
 
 const geistSans = Geist({
@@ -21,6 +21,10 @@ export const metadata: Metadata = {
     "Portafolio profesional minimalista para mostrar mis proyectos y experiencia.",
 };
 
+export function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "es" }];
+}
+
 export default async function RootLayout({
   children,
   params,
@@ -29,6 +33,7 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const messages = await getMessages();
 
   return (
