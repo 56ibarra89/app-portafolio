@@ -10,11 +10,26 @@
     "greeting": "Hola, soy",
     "description": "Desarrollador web enfocado en <important>React</important>, <important>TypeScript</important> y en construir aplicaciones digitales con interfaces limpias, modernas y un alto enfoque en la experiencia de usuario.",
     "viewProjects": "Ver proyectos",
-    "contact": "Contactar"
+    "contact": "Contactar",
+    "cv": "Ver mi CV"
   },
   "Projects": {
     "title": "Mis Proyectos",
-    "subtitle": "Una selección de mi trabajo reciente y proyectos destacados."
+    "subtitle": "Una selección de mi trabajo reciente y proyectos destacados.",
+    "items": {
+      "1": {
+        "title": "App Factura",
+        "description": "Sistema de facturación desarrollado con React, TypeScript, Material UI y Electron."
+      },
+      "2": {
+        "title": "Eco Store E-commerce",
+        "description": "Plataforma de comercio electrónico sustentable con carrito de compras, pasarela de pagos integrada y panel de administración."
+      },
+      "3": {
+        "title": "Dashboard Analítico",
+        "description": "Panel de control interactivo para visualización de métricas en tiempo real con gráficos dinámicos y exportación de reportes."
+      }
+    }
   },
   "Contact": {
     "title": "Pongámonos en contacto",
