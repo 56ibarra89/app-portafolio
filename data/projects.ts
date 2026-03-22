@@ -20,4 +20,10 @@ export const projects: Project[] = [
     technologies: ["Vue.js", "Chart.js", "Firebase", "Node.js"],
     github: "https://github.com/tuusuario/analytics-dashboard",
   },
+  {
+    id: 4,
+    image: "/images/placeholder-2.jpg",
+    technologies: ["Framer Motion", "Tailwind CSS", "React"],
+    github: "https://github.com/tuusuario/test-project",
+  },
 ];

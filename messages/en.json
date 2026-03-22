@@ -28,6 +28,10 @@
       "3": {
         "title": "Analytics Dashboard",
         "description": "Interactive control panel for real-time metrics visualization with dynamic charts and report export."
+      },
+      "4": {
+        "title": "Test Project",
+        "description": "This is a fourth project added for testing to verify that the carousel scrolls horizontally completely fine."
       }
     }
   },

@@ -10,7 +10,7 @@ export default function ProjectCard({ project }: Props) {
   const t = useTranslations("Projects.items");
 
   return (
-    <div className="border border-gray-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-xl dark:hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-300 flex flex-col bg-white dark:bg-neutral-900/50 backdrop-blur-sm group">
+    <div className="h-full border border-gray-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-xl dark:hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-300 flex flex-col bg-white dark:bg-neutral-900/50 backdrop-blur-sm group">
       <div className="relative w-full h-52 mb-6 rounded-xl overflow-hidden bg-gray-100 dark:bg-neutral-800">
         <Image
           src={project.image}

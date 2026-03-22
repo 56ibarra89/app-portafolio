@@ -28,6 +28,10 @@
       "3": {
         "title": "Dashboard Analítico",
         "description": "Panel de control interactivo para visualización de métricas en tiempo real con gráficos dinámicos y exportación de reportes."
+      },
+      "4": {
+        "title": "Proyecto de Prueba",
+        "description": "Este es un cuarto proyecto añadido de prueba para verificar que el carrusel hace scroll horizontal correctamente."
       }
     }
   },
