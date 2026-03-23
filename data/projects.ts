@@ -9,10 +9,10 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    image: "/images/placeholder-2.jpg",
-    technologies: ["Next.js", "Tailwind CSS", "Stripe", "Prisma"],
-    github: "https://github.com/tuusuario/eco-store",
-    demo: "https://eco-store-demo.com",
+    image: "/images/pokemon-game.png",
+    technologies: ["Vue.js", "Tailwind CSS", "TypeScript", "Pinia"],
+    github: "https://github.com/56ibarra89/pokemon-game",
+    demo: "https://0dc6acd0.pokemon-game-egh.pages.dev/",
   },
   {
     id: 3,

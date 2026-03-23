@@ -16,14 +16,16 @@
   "Projects": {
     "title": "Mis Proyectos",
     "subtitle": "Una selección de mi trabajo reciente y proyectos destacados.",
+    "viewCode": "Código",
+    "viewDemo": "Demo",
     "items": {
       "1": {
         "title": "App Factura",
         "description": "Sistema de facturación desarrollado con React, TypeScript, Material UI y Electron."
       },
       "2": {
-        "title": "Eco Store E-commerce",
-        "description": "Plataforma de comercio electrónico sustentable con carrito de compras, pasarela de pagos integrada y panel de administración."
+        "title": "Juego de adivinanzas de Pokémon",
+        "description": "Divertido juego interactivo al estilo \"¿Quién es ese Pokémon?\" utilizando la Composition API. Adivina el Pokémon oculto a partir de su silueta mediante integración en tiempo real con la PokéAPI y estado global con Pinia."
       },
       "3": {
         "title": "Dashboard Analítico",

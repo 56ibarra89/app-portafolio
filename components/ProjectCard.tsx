@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Project } from "@/types/project";
+import { Github, ExternalLink } from "lucide-react";
 
 interface Props {
   project: Project;
@@ -8,6 +9,7 @@ interface Props {
 
 export default function ProjectCard({ project }: Props) {
   const t = useTranslations("Projects.items");
+  const tGeneral = useTranslations("Projects");
 
   return (
     <div className="h-full border border-gray-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-xl dark:hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-300 flex flex-col bg-white dark:bg-neutral-900/50 backdrop-blur-sm group">
@@ -37,6 +39,33 @@ export default function ProjectCard({ project }: Props) {
           </span>
         ))}
       </div>
+
+      {(project.github || project.demo) && (
+        <div className="flex gap-4 mt-6 pt-4 border-t border-gray-100 dark:border-neutral-800">
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-neutral-400 dark:hover:text-white transition-colors"
+            >
+              <Github size={16} />
+              {tGeneral("viewCode")}
+            </a>
+          )}
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-neutral-400 dark:hover:text-white transition-colors"
+            >
+              <ExternalLink size={16} />
+              {tGeneral("viewDemo")}
+            </a>
+          )}
+        </div>
+      )}
     </div>
   );
 }
